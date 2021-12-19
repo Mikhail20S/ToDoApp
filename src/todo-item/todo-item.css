@@ -1,0 +1,33 @@
+.todo-item {
+    border: 1px solid gray;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 5px;
+}
+
+.checkbox {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.name-description {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+}
+
+.name {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-left: 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+    width: 410px;
+}
